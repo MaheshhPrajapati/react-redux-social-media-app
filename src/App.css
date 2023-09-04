@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(57, 51, 51);
+    color: whitesmoke;
+    height: 100vh;
+}
+
+.appComponentDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* input form component */
+
+.inputFormDiv {
+    margin-top: 5vh;
+    width: 80%;
+}
+
+.inputFormDiv button {
+    margin-top: 3vh;
+}
+
+.inputFormDiv h2 {
+    margin-right: 5vh;
+    align-self: initial;
+}
+
+.inputFormDiv label {
+    display: block;
+    align-items: start;
+}
+
+.inputFormDiv select,
+.inputFormDiv input {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.inputFormDiv select:hover,
+.inputFormDiv input:hover {
+
+    border-color: rgb(239, 239, 239);
+}
+
+/* post List component */
+.postDiv {
+    margin-top: 5vh;
+    width: 80%;
+}
+
+article {
+    margin-bottom: 3vh;
+    border: 1px solid rgb(151, 151, 151);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+article h3 {
+    margin: 0;
+}
+
+/* reaction button  */
+.reactionButton {
+    background: transparent;
+    border: none !important;
+    color: white
+}
