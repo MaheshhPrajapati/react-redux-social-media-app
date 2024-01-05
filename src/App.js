@@ -1,5 +1,4 @@
 import AddNewPost from "./Components/AddNewPost";
-import PostSlice from "./Components/PostList";
 import "./App.css";
 import SinglePagePost from './Components/SinglePagePost';
 import { Routes, Route } from 'react-router-dom';
