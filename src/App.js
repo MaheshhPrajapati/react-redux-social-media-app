@@ -8,7 +8,7 @@ import Layout from './Components/Layout';
 export default function App() {
 
   return <Routes>
-    <Route path='/' element={<Layout />}>
+    <Route path='react-redux-social-media-app' element={<Layout />}>
       <Route index element={<PostList />} />
       <Route path='post'>
         <Route index element={<AddNewPost />} />
