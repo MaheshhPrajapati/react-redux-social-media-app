@@ -2,6 +2,9 @@ import { useSelector, useDispatch } from "react-redux";
 import { selectAllPosts, fetchPosts, getPostStatus, getPostError } from "../app/postSlice";
 import { useEffect } from "react";
 import PostExcerpt from "./PostExcerpt";
+import {Container,Row,Col} from "react-bootstrap";
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 
 
 export default function PostList() {
@@ -26,10 +29,15 @@ export default function PostList() {
         content = <p>{error}</p>;
     }
 
-    return (
-        <div className="postDiv">
-            <h2>Posts</h2>
+    return (<div>
+        
+        <Container className="postDiv">
+            <span className="h2-title">Recent</span>
+            <Row>
             {content}
-        </div>
+            </Row>
+            
+        </Container>
+    </div>
     )
 }

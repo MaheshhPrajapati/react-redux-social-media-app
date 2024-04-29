@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name":"Raveena Mishra",
+      "img":"https://images.inc.com/uploaded_files/image/1920x1080/getty_481292845_77896.jpg",
+      "content": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    },
+    {
+        "id": 1,
+        "name": "Rahul Kumar",
+        "img": "https://randomuser.me/api/portraits/men/1.jpg",
+        "content": "I am enjoying my life to the fullest!"
+    },
+    {
+        "id": 2,
+        "name": "Priya Sharma",
+        "img": "https://randomuser.me/api/portraits/women/2.jpg",
+        "content": "Feeling blessed and grateful for everything in my life."
+    },
+    {
+        "id": 3,
+        "name": "Amit Patel",
+        "img": "https://randomuser.me/api/portraits/men/3.jpg",
+        "content": "Enjoying quality time with family and friends."
+    },
+    {
+        "id": 4,
+        "name": "Neha Gupta",
+        "img": "https://randomuser.me/api/portraits/women/4.jpg",
+        "content": "Chasing dreams and making memories along the way!"
+    },
+    {
+        "id": 5,
+        "name": "Sandeep Singh",
+        "img": "https://randomuser.me/api/portraits/men/5.jpg",
+        "content": "Exploring new opportunities and embracing challenges."
+    }
+]

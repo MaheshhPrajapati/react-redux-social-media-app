@@ -1,15 +1,40 @@
-body {
-    background-color: rgb(57, 51, 51);
+.body {
+    background-color:rgb(0, 0, 0);
     color: whitesmoke;
     height: 100vh;
+    font-size: 1.7rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.appComponentDiv {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.appComponent {
 }
+
+/* SibeBar Component */
+.sidebarComponent{
+    position: fixed;
+    width:350px;
+    border-right: 0.2px solid #3f3f3f;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.wrapper{
+    padding-left: 2rem;
+    margin: 2rem 0 1rem;
+}
+
+.title-element{
+    font-size: 1.8rem;
+    font-family:'Pacifico';
+}
+
+.body-title{
+    padding-left:1.5rem;
+}
+
+
 
 /* input form component */
 
@@ -40,30 +65,182 @@ body {
 
 .inputFormDiv select:hover,
 .inputFormDiv input:hover {
-
     border-color: rgb(239, 239, 239);
 }
 
 /* post List component */
-.postDiv {
-    margin-top: 5vh;
-    width: 80%;
+div.postDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right:10rem;
+    
 }
 
-article {
-    margin-bottom: 3vh;
-    border: 1px solid rgb(151, 151, 151);
+div.row{
+    max-width:90%;
+    grid-gap:14.62px;
+}
+
+.h2-title{
+    margin:2rem auto 1rem;
+}
+
+div.post-item{
+    border: 0.2px solid #3f3f3f;
     padding: 10px;
     border-radius: 10px;
+    width:32.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-article h3 {
-    margin: 0;
+.post-title{
+    
+}
+.author-name{
+    font-style:italic;
 }
 
+.read-more-button{
+    text-decoration: none;
+}
+
+.post-image{
+    width:100px;
+}
 /* reaction button  */
 .reactionButton {
     background: transparent;
     border: none !important;
     color: white
+}
+
+/* For Smartphones */
+@media (max-width:767px){
+    .sidebarComponent{
+        width:100vw;
+        height:fit-content;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 5vw;
+        bottom: -2px;
+        left: 0;
+        background-color: #000;
+    }
+    .body-elements{
+        display: flex;
+    }
+    .body-title{
+        padding-left: 0;
+        font-size: 0.7rem;
+    }
+    div.postDiv{
+        margin-right:auto;
+    }
+    div.row{
+        grid-gap:4.01px;
+    }
+    .post-body{
+        font-size:0.6rem;
+    }
+    div.appComponent{
+        font-size:0.6rem;
+    }
+    .post-title{
+        font-size:0.7rem;
+    }
+    .title-element{
+        font-size:0.7rem;
+        white-space: nowrap;
+    }
+    div.post-item{
+        width:49%;
+    }
+    .h2-title{
+        font-size:1.1rem;
+    }
+    .reactionButton{
+        padding:2px 4px;
+    }
+}
+/* For tablet displays */
+@media  (min-width: 768px) and (max-width: 1199px){
+    .sidebarComponent{
+        width:100vw;
+        height:fit-content;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 5vw;
+        bottom: -2px;
+        left: 0;
+        background-color: #000;
+    }
+    .body-elements{
+        display: flex;
+    }
+    .body-title{
+    }
+    div.postDiv{
+        margin-right:auto;
+    }
+    div.row{
+        grid-gap:7.87px;
+    }
+    .post-body{
+        font-size:0.9rem;
+    }
+    div.appComponent{
+        font-size:0.8rem;
+    }
+    .post-title{
+        font-size:1rem;
+    }
+    .title-element{
+        font-size:1.1rem
+    }
+    .h2-title{
+        font-size:1.3rem;
+    }
+}
+ 
+/* For HD displays */
+@media (min-width: 1200px) and (max-width: 1439px){
+    .post-body{
+        font-size:1rem;
+    }
+    div.appComponent{
+        font-size:1rem;
+    }
+    div.postDiv{
+        max-width:900px;
+        margin-right:2rem;
+    }
+    .post-title{
+        font-size:1.15rem;
+    }
+    .title-element{
+        font-size:1.2rem
+    }
+    div.row{
+        grid-gap:9.92px;
+    }
+    .sidebarComponent{
+        width:240px
+    }
+    .h2-title{
+        font-size:1.5rem;
+    }
+    .body-title{
+        font-size:1.1rem;
+    }
+}
+
+/* For FHD Displays */
+@media (min-width: 1440px){
+    div.postDiv{
+    }
 }
