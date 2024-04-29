@@ -12,7 +12,7 @@ export default function SideBar(){
     <div className="body-elements">
     {SidebarIcons.map(item => {
         return <div key={item.id} className="wrapper">
-            <img src="../icons/account.png" alt="" />
+            <img src={item.icon} alt="" />
             <span className="body-title">{item.title}</span>
         </div>
     })}

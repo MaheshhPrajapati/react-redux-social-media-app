@@ -12,7 +12,7 @@
 /* SibeBar Component */
 .sidebarComponent{
     position: fixed;
-    width:350px;
+    width:18vw;
     border-right: 0.2px solid #3f3f3f;
     height:100vh;
     display: flex;
@@ -73,13 +73,14 @@ div.postDiv {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right:10rem;
+    margin-right: 5vw;
+    width:1150px
     
 }
 
 div.row{
     max-width:90%;
-    grid-gap:14.62px;
+    grid-gap:12.73px;
 }
 
 .h2-title{
@@ -216,7 +217,7 @@ div.post-item{
     }
     div.postDiv{
         max-width:900px;
-        margin-right:2rem;
+        margin-right:8vw;
     }
     .post-title{
         font-size:1.15rem;
@@ -228,7 +229,7 @@ div.post-item{
         grid-gap:9.92px;
     }
     .sidebarComponent{
-        width:240px
+        width:17vw;
     }
     .h2-title{
         font-size:1.5rem;
