@@ -2,7 +2,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { selectAllPosts, fetchPosts, getPostStatus, getPostError } from "../app/postSlice";
 import { useEffect } from "react";
 import PostExcerpt from "./PostExcerpt";
-import {Container,Row,Col} from "react-bootstrap";
+import {Container,Row} from "react-bootstrap";
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 

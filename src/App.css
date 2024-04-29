@@ -135,7 +135,6 @@ div.post-item{
     }
     .body-title{
         padding-left: 0;
-        font-size: 0.7rem;
     }
     div.postDiv{
         margin-right:auto;
@@ -200,7 +199,7 @@ div.post-item{
         font-size:1rem;
     }
     .title-element{
-        font-size:1.1rem
+        font-size:1.1rem;
     }
     .h2-title{
         font-size:1.3rem;

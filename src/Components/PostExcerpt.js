@@ -1,7 +1,7 @@
 import Author from "./Author"
 import ReactionButton from "./ReactionButton"
 import TimeAgo from "./TimeAgo";
-import {Container,Row,Col} from "react-bootstrap";
+import {Col} from "react-bootstrap";
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import {useState} from "react";
 
