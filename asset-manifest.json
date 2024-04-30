@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-redux-social-media-app/static/css/main.f72b43c0.css",
-    "main.js": "/react-redux-social-media-app/static/js/main.f801a34e.js",
+    "main.css": "/react-redux-social-media-app/static/css/main.3e92c05e.css",
+    "main.js": "/react-redux-social-media-app/static/js/main.f0674f18.js",
     "index.html": "/react-redux-social-media-app/index.html",
-    "main.f72b43c0.css.map": "/react-redux-social-media-app/static/css/main.f72b43c0.css.map",
-    "main.f801a34e.js.map": "/react-redux-social-media-app/static/js/main.f801a34e.js.map"
+    "main.3e92c05e.css.map": "/react-redux-social-media-app/static/css/main.3e92c05e.css.map",
+    "main.f0674f18.js.map": "/react-redux-social-media-app/static/js/main.f0674f18.js.map"
   },
   "entrypoints": [
-    "static/css/main.f72b43c0.css",
-    "static/js/main.f801a34e.js"
+    "static/css/main.3e92c05e.css",
+    "static/js/main.f0674f18.js"
   ]
 }
